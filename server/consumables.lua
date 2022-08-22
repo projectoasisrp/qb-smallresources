@@ -84,8 +84,14 @@ QBCore.Functions.CreateUseableItem("oxy", function(source)
     TriggerClientEvent("consumables:client:oxy", source)
 end)
 
-QBCore.Functions.CreateUseableItem("meth", function(source)
-    TriggerClientEvent("consumables:client:meth", source)
+QBCore.Functions.CreateUseableItem("meth", function(source, item)
+    local src = source
+    TriggerClientEvent("consumables:client:meth", src)
+end)
+
+QBCore.Functions.CreateUseableItem("fentanyl", function(source, item)
+    local src = source
+    TriggerClientEvent("consumables:client:fentanyl", src)
 end)
 
 ----------- / Tools
