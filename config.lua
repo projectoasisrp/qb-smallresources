@@ -3,9 +3,9 @@ Config.MaxWidth = 5.0
 Config.MaxHeight = 5.0
 Config.MaxLength = 5.0
 Config.DamageNeeded = 100.0
-Config.IdleCamera = true
+Config.IdleCamera = false
 Config.EnableProne = true
-Config.JointEffectTime = 60
+Config.JointEffectTime = 45
 Config.RemoveWeaponDrops = true
 Config.RemoveWeaponDropsTimer = 25
 Config.DefaultPrice = 20 -- Default price for the carwash
@@ -17,12 +17,31 @@ ConsumablesEat = {
     ["tosti"] = math.random(40, 50),
     ["twerks_candy"] = math.random(35, 54),
     ["snikkel_candy"] = math.random(40, 50),
+    ["weedbrownie"] = math.random(40, 50),
+    ["cutfish"] = math.random(35,54),
+    ["apple"] = math.random(10, 20),
+    ["beef"] = math.random(35, 50),
+    ["slicedpie"] = math.random(10, 20),
+    ["corncob"] = math.random(25, 40),
+    ["canofcorn"] = math.random(35, 50),
+    ["grapes"] = math.random(10, 20),
+    ["greenpepper"] = math.random(10, 20),
+    ["chillypepper"] = math.random(10, 20),
+    ["tomato"] = math.random(10, 20),
+    ["tomatopaste"] = math.random(25, 40),
+    ["cooked_bacon"] = math.random(35, 50),
+    ["cooked_sausage"] = math.random(35, 50),
+    ["cooked_pork"] = math.random(35, 50),
+    ["cooked_ham"] = math.random(35, 50),
 }
 
 ConsumablesDrink = {
     ["water_bottle"] = math.random(35, 54),
     ["kurkakola"] = math.random(35, 54),
     ["coffee"] = math.random(40, 50),
+    ["apple_juice"] = math.random(25, 45),
+    ["grapejuice"] = math.random(25, 45),
+    ["hotsauce"] = math.random(10, 15),
 }
 
 ConsumablesAlcohol = {
@@ -56,9 +75,6 @@ Config.BlacklistedScenarios = {
 }
 
 Config.BlacklistedVehs = {
-    [`SHAMAL`] = true,
-    [`LUXOR`] = true,
-    [`LUXOR2`] = true,
     [`JET`] = true,
     [`LAZER`] = true,
     [`BUZZARD`] = true,
@@ -101,6 +117,11 @@ Config.BlacklistedVehs = {
     [`rrocket`] = true,
     [`ruiner2`] = true,
     [`deluxo`] = true,
+    [`police`] = true,
+    [`policeb`] = true,
+    [`police2`] = true,
+    [`police3`] = true,
+    [`police4`] = true,
 }
 
 Config.BlacklistedPeds = {
